@@ -1,0 +1,7 @@
+CREATE SCHEMA IF NOT EXISTS keycloak;
+GRANT ALL PRIVILEGES ON SCHEMA keycloak TO postgres;
+
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA keycloak TO postgres;
+
+CREATE DATABASE openmetadata_db;
+GRANT ALL PRIVILEGES ON DATABASE openmetadata_db TO postgres;
